@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def connect():
     return sqlite3.connect("shop.db")
-
+#hello
 
 def create_database():
     con = connect()
